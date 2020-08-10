@@ -1,6 +1,7 @@
+package com.akhter.designpatterns.creational.singleton;
+
 public class Singleton {
     private static Singleton singleton;
-
     private Singleton() {}
 
     public static Singleton get() {
@@ -8,10 +9,5 @@ public class Singleton {
             singleton = new Singleton();
         return singleton;
     }
-
-    public static void main(String[] args) {
-        Singleton firstSingleton = Singleton.get();
-        Singleton secondSingleton = Singleton.get();
-        System.out.println(firstSingleton == secondSingleton);
-    }
 }
+
