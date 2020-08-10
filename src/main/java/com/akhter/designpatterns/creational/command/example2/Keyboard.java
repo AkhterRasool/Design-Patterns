@@ -30,7 +30,9 @@ public class Keyboard {
     }
 
     public void type(String text) {
-        Editor.get().setSelection(Editor.get().getSelection() + text);
-        System.out.println("[TYPE]\t" + Editor.get().getSelection());
+        Editor editor = Editor.get();
+        String selection = editor.getSelection();
+        editor.setSelection(selection + text);
+        System.out.println("[TYPE]\t" + selection);
     }
 }

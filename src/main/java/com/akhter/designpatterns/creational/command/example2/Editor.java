@@ -22,11 +22,10 @@ public class Editor {
     }
 
     public String cut() {
-        String temp = getSelection();
+        clipboard = getSelection();
         setSelection("");
-        clipboard = temp;
         System.out.println("[CUT]\t" + getSelection());
-        return temp;
+        return clipboard;
     }
 
     public String copy() {
