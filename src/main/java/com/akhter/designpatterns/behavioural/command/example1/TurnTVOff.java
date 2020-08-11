@@ -1,4 +1,4 @@
-package com.akhter.designpatterns.creational.command.example1;
+package com.akhter.designpatterns.behavioural.command.example1;
 
 public class TurnTVOff implements TVCommand {
 

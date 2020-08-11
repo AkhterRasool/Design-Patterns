@@ -1,9 +1,9 @@
-package com.akhter.designpatterns.creational.command.example1;
+package com.akhter.designpatterns.behavioural.command.example1;
 
-import static com.akhter.designpatterns.creational.command.example1.VoiceCommands.SHUT_TV_DOWN;
-import static com.akhter.designpatterns.creational.command.example1.VoiceCommands.TURN_TV_ON;
-import static com.akhter.designpatterns.creational.command.example1.VoiceCommands.VOLUME_DOWN;
-import static com.akhter.designpatterns.creational.command.example1.VoiceCommands.VOLUME_UP;
+import static com.akhter.designpatterns.behavioural.command.example1.VoiceCommands.SHUT_TV_DOWN;
+import static com.akhter.designpatterns.behavioural.command.example1.VoiceCommands.TURN_TV_ON;
+import static com.akhter.designpatterns.behavioural.command.example1.VoiceCommands.VOLUME_DOWN;
+import static com.akhter.designpatterns.behavioural.command.example1.VoiceCommands.VOLUME_UP;
 
 public class CommandClient {
     public static void main(String[] args) {

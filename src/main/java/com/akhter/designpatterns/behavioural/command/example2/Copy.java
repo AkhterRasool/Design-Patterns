@@ -1,4 +1,4 @@
-package com.akhter.designpatterns.creational.command.example2;
+package com.akhter.designpatterns.behavioural.command.example2;
 
 public class Copy implements EditorCommand {
     

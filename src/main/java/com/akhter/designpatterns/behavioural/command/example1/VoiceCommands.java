@@ -1,4 +1,4 @@
-package com.akhter.designpatterns.creational.command.example1;
+package com.akhter.designpatterns.behavioural.command.example1;
 
 public enum VoiceCommands {
     TURN_TV_ON,

@@ -1,8 +1,8 @@
-package com.akhter.designpatterns.creational.command.example2;
+package com.akhter.designpatterns.behavioural.command.example2;
 
-import static com.akhter.designpatterns.creational.command.example2.Keyboard.Command.CTRLC;
-import static com.akhter.designpatterns.creational.command.example2.Keyboard.Command.CTRLV;
-import static com.akhter.designpatterns.creational.command.example2.Keyboard.Command.CTRLX;
+import static com.akhter.designpatterns.behavioural.command.example2.Keyboard.Command.CTRLC;
+import static com.akhter.designpatterns.behavioural.command.example2.Keyboard.Command.CTRLV;
+import static com.akhter.designpatterns.behavioural.command.example2.Keyboard.Command.CTRLX;
 
 public class CommandClient {
     public static void main(String[] args) {
